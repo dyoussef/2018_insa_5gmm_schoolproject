@@ -5,7 +5,7 @@ import otbApplication
 ComputeImagesStatistics = otbApplication.Registry.CreateApplication("ComputeImagesStatistics")
 
 # The following lines set all the application parameters:
-ComputeImagesStatistics.SetParameterStringList("il", ['ExtractROI_PMS.tif'])
+ComputeImagesStatistics.SetParameterStringList("il", ['PMS_reference.tif'])
 
 ComputeImagesStatistics.SetParameterString("out", "EstimateImageStatistics_PMS.xml")
 

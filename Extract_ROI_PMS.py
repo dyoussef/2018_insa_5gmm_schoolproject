@@ -20,7 +20,7 @@ ExtractROI.SetParameterFloat("mode.extent.lrx", 649)
 
 ExtractROI.SetParameterFloat("mode.extent.lry", 649)
 
-ExtractROI.SetParameterString("out", "ExtractROI_PMS.tif")
+ExtractROI.SetParameterString("out", "./data/PMS_reference.tif")
 
 # The following line execute the application
 ExtractROI.ExecuteAndWriteOutput()
